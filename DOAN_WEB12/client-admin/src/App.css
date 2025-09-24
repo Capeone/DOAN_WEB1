@@ -1,0 +1,250 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f7fa;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Logo styles */
+.logo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 20px 0;
+}
+
+/* Button styling */
+input[type="submit"] {
+  background-color: #1a73e8;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1769cf;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Input styling */
+input[type="file"], 
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:focus, 
+select:focus {
+  border-color: #1a73e8;
+}
+
+/* Alignment and layout classes */
+.inline {
+  display: inline-block;
+}
+
+.align-center {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+  width: 60%;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.float-right {
+  float: right;
+  width: 35%;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.float-clear {
+  clear: both;
+}
+
+/* Link styling */
+.link {
+  cursor: pointer;
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #0d5db8;
+}
+
+/* Menu styling */
+ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li.menu {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+li.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+li.menu a:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+/* Search form styling */
+form.search {
+  margin: 0;
+}
+
+input.keyword {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Datatable styling */
+table.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table.datatable th {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+table.datatable td {
+  padding: 14px;
+  font-size: 14px;
+  color: #555;
+}
+
+table.datatable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.datatable tr:hover {
+  background-color: #e0f2ff;
+  cursor: pointer;
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Centering content vertically and horizontally */
+.align-valign-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container styling */
+.align-valign-center form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form input styling */
+.align-valign-center input[type="text"], 
+.align-valign-center input[type="password"], 
+.align-valign-center input[type="file"], 
+.align-valign-center select, 
+.align-valign-center input.keyword {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.align-valign-center input[type="text"]:focus, 
+.align-valign-center input[type="password"]:focus, 
+.align-valign-center input[type="file"]:focus, 
+.align-valign-center select:focus, 
+.align-valign-center input.keyword:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+  outline: none;
+}
