@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "a0132c26-8658-4cbe-a42b-922eb009c8e8",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1732616834778"
+        }
+      },
+      "favorite": {
+        "name": "nangmanh.awdif.mongodb.net"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://nnmanh203:nangmanh2003@nangmanh.awdif.mongodb.net/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
